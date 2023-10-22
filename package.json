@@ -1,0 +1,26 @@
+{
+  "name": "scraping-with-self-rotatory-proxies",
+  "version": "1.0.0",
+  "description": "Project that allows you to raise instances of proxies.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsteveSegura/scraping-with-self-rotatory-proxies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsteveSegura/scraping-with-self-rotatory-proxies/issues"
+  },
+  "homepage": "https://github.com/EsteveSegura/scraping-with-self-rotatory-proxies#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "https-proxy-agent": "^7.0.2"
+  }
+}
